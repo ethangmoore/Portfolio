@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(142, 249, 171);
+    color: white;
+}
+
+#header {
+    background-color: rgb(18, 148, 59);
+    border: 2px solid white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+/* Image Section */
+
+#img {
+    width: 200px;
+    height: 204px;
+    border-radius: 50%;
+}
+
+/* Icons Section */
+
+@media (max-width: 767px) {
+    .iconContainer {
+        flex-direction: column;
+    }
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialIcon {
+    margin: 0 30px;
+    color: white;
+}
+
+/* Skills Section */
+
+.skills {
+    background-color: rgb(23, 227, 90);
+    border: 2px solid white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+/* Repos Section */
+
+.repos {
+    background-color: rgb(23, 227, 90);
+    border: 2px solid white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+/* Footer Section */
+
+.footerContainer {
+    position: fixed;
+    background-color: rgb(18, 148, 59);
+    border: 2px solid white;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+    padding: 30px 30px;
+    vertical-align: middle;
+}
